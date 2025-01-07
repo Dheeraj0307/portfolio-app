@@ -9,12 +9,6 @@
     margin: auto;
 }
 
-.cpara {
-    max-width: 600px;
-    text-align: center;
-    margin: auto;
-}
-
 .ctn-icons {
     display: flex;
     justify-content: space-around;

@@ -35,6 +35,19 @@ button {
     padding: 0 10px;
 }
 
+.hpara {
+    text-align: center;
+    font-size: 2em;
+    text-transform: capitalize;
+}
+
+.cpara {
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+
 .psize {
     font-size: 1.2rem;
 }
