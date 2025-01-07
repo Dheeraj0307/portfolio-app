@@ -1,0 +1,35 @@
+.pf-services {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 10%;
+}
+
+.pf-services h1 {
+    margin: auto;
+}
+
+.cpara {
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+.ctn-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+.icons h5 {
+    font-size: 1.2rem;
+}

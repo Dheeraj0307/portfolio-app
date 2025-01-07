@@ -1,0 +1,48 @@
+.pf-about {
+    max-width: 100%;
+    padding: 5% 10px;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    margin: 0 10%;
+}
+
+.about-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 2 0;
+}
+
+.about-left p {
+    line-height: 25px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.user-detail {
+    display: flex;
+    align-items: center;
+}
+
+.user-detail h3 {
+    flex: 1 0;
+}
+
+.user-detail p {
+    flex: 3 0;
+}
+
+.about-right {
+    width: 100%;
+    flex: 1 0;
+}
+
+.about-right img {
+    border-radius: 50px;
+}

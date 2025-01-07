@@ -1,0 +1,30 @@
+.pf-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 5% 0;
+    margin: 0 10%;
+}
+
+.skills-ctn {
+    background-color: #f4f6f8;
+    margin: 20px 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 100px;
+}
+
+.per-skill {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name-qnty {
+    display: flex;
+}
+
+.per-skill .name-qnty p {
+    flex: 1;
+}

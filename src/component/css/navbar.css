@@ -1,0 +1,19 @@
+.bg-light-gray {
+    background-color: #f4f6f8;
+}
+
+.pf-header {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pf-header-ul {
+    display: flex;
+    width: 100%;
+    gap: 25px;
+    text-transform: capitalize;
+    align-items: center;
+    font-weight: 550;
+}
