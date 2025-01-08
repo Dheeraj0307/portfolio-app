@@ -1,0 +1,73 @@
+.contact-container {
+    max-width: 1024px;
+    margin: auto;
+}
+
+.pf-contact {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 0;
+    gap: 50px
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content .form {
+    flex: 0 0 49%;
+    padding: 32px;
+    background: #f4f6f8;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.content .message {
+    flex: 0 0 49%;
+}
+
+.content .form div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.content .form input {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #e9ecef;
+}
+
+.content .form div textarea {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #e9ecef;
+}
+
+.message .top {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    line-height: 1.6;
+    margin-top: 16px;
+}
+
+.message .bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    gap: 15px;
+}
+
+.message .bottom div {
+    display: flex;
+    width: 100%;
+}
+
+.message .bottom div h3 {
+    flex: 0 1 20%;
+}

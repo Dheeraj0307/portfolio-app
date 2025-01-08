@@ -1,9 +1,13 @@
+.skill-container {
+    max-width: 1024px;
+    margin: auto;
+}
+
 .pf-skills {
     display: flex;
     flex-direction: column;
     gap: 25px;
     padding: 5% 0;
-    margin: 0 10%;
 }
 
 .skills-ctn {

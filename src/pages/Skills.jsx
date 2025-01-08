@@ -4,7 +4,7 @@ import Barline from '../component/Barline'
 
 const Skills = () => {
     return (
-        <div className='container'>
+        <div className='skill-container'>
             <div className="pf-skills">
                 <h1 className='hpara'>my skills</h1>
                 <p className='cpara'>I am a quick learner and specialize in multitude of skills required for Web Application Development and Product Design</p>

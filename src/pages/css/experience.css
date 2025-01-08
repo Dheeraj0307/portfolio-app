@@ -1,0 +1,12 @@
+.exp-container {
+    max-width: 1024px;
+    padding: 20px 0;
+    margin: auto;
+}
+
+.pf-exp {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 5% 0;
+}
