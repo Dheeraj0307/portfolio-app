@@ -6,7 +6,7 @@
 .pf-contact {
     display: flex;
     flex-direction: column;
-    padding: 5% 0;
+    padding: 5% 0 10%;
     gap: 50px
 }
 
@@ -17,7 +17,7 @@
 }
 
 .content .form {
-    flex: 0 0 49%;
+    flex: 0 0 48%;
     padding: 32px;
     background: #f4f6f8;
     display: flex;
@@ -26,7 +26,7 @@
 }
 
 .content .message {
-    flex: 0 0 49%;
+    flex: 0 0 48%;
 }
 
 .content .form div {

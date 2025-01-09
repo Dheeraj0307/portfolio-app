@@ -1,23 +1,23 @@
-.client-container {
+.pf-client-container {
     max-width: 1024px;
     margin: auto;
 }
 
-
 .client-cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px 20px;
+    gap: 4%;
     padding: 5% 0;
 }
 
 .client-card {
     flex: 0 0 auto;
-    width: 49%;
+    width: 48%;
     display: flex;
     flex-direction: column;
     border-radius: 8px;
     overflow: hidden;
+    margin-bottom: 64px;
 }
 
 .client-card .top {
@@ -45,6 +45,10 @@
     align-items: end;
     justify-content: end;
     gap: 10px;
+}
+
+.client-card .bottom .para p {
+    text-align: right;
 }
 
 .client-card .bottom img {

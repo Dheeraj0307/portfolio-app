@@ -6,6 +6,13 @@
 .hero-left-side,
 .hero-right-side {
     flex: 1;
+    padding: 15px;
+    width: 100%;
+}
+
+.hero-img {
+    width: 100%;
+    max-width: 530px;
 }
 
 .right-para {

@@ -7,6 +7,6 @@
 .pf-exp {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 4%;
     padding: 5% 0;
 }

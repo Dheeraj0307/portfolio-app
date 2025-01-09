@@ -12,7 +12,7 @@ const ClientCard = ({ name, para, img }) => {
             <div className="bottom">
                 <div className="para">
                     <h3>{name}</h3>
-                    <p>{para}</p>
+                    <p className='usize'>{para}</p>
                 </div>
                 <img src={img} alt={name} width={100} height={100} />
             </div>

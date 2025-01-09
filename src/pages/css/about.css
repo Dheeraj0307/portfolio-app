@@ -7,8 +7,7 @@
     max-width: 100%;
     padding: 5% 10px;
     display: flex;
-    align-items: center;
-    gap: 10%;
+    gap: 5%;
 }
 
 .about-left {
@@ -16,7 +15,9 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    flex: 2 0;
+    flex: 1.5 0;
+    padding: 0 12px;
+
 }
 
 .about-left p {
@@ -45,8 +46,11 @@
 .about-right {
     width: 100%;
     flex: 1 0;
+    padding: 0 12px;
 }
 
 .about-right img {
+    width: 100%;
+
     border-radius: 50px;
 }
