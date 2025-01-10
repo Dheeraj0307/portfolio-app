@@ -35,7 +35,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className="about-right">
+                <div className="about-right" data-aos='fade-left' >
                     <img src='/images/avatar.jpg' alt="user-img" />
                 </div>
             </div>

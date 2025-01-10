@@ -1,9 +1,10 @@
 import React from 'react'
 import './css/card.css'
 
-const Card = ({ title, para, img }) => {
+const Card = ({ data_aos, title, para, img, delay }) => {
     return (
-        <div className="exp-card">
+        <div className='exp-card' data-aos={data_aos} data-aos-delay={delay}
+        >
             <div className="cars-head msize">
                 <div className="para  ">
                     <h2>{title}</h2>

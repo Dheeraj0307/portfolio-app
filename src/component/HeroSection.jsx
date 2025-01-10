@@ -6,7 +6,6 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
 
 import { FaArrowRight } from "react-icons/fa";
-
 import './css/hero.css'
 
 const HeroSection = () => {
@@ -20,21 +19,23 @@ const HeroSection = () => {
                     <div className="hero-right-side">
                         <div className="right-para">
                             <h3 className='msize'>hello!</h3>
-                            <h1>i'm walter patterson</h1>
-                            <p className='psize'>Web Developer & Mobile Application Developer</p>
-                            <p className='social-links'>
-                                <FaTwitter />
-                                <FaFacebook />
-                                <CiInstagram />
-                                <FaLinkedin />
-                                <FaBehance />
+                            <h1 data-aos="fade-left"
+                                data-aos-delay="50">
+                                i'm walter patterson</h1>
+                            <p data-aos="fade-up" data-aos-delay="100" className='psize'>Web Developer & Mobile Application Developer</p>
+                            <p data-aos="fade-up" data-aos-delay="200" className='social-links'>
+                                <FaTwitter size={25} />
+                                <FaFacebook size={25} />
+                                <CiInstagram size={25} />
+                                <FaLinkedin size={25} />
+                                <FaBehance size={25} />
                             </p>
-                            <button> get in touch <FaArrowRight /> </button>
+                            <button data-aos="fade-up" data-aos-delay="200" > get in touch <FaArrowRight /> </button>
                         </div>
                     </div>
                 </main>
             </div>
-            <div style={{ transform: ' translateY(10px)' }}>
+            <div className='wave-ctn' >
                 <img src='/images/wave-bg.svg' alt="wave" className='bg-wave' />
             </div>
         </div>

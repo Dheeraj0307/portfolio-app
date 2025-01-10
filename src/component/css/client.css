@@ -53,4 +53,5 @@
 
 .client-card .bottom img {
     border-radius: 10px;
+    object-fit: cover;
 }

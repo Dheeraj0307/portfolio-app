@@ -1,145 +1,163 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-size: 1rem
-}
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-size: 1rem
+ }
 
-body {
-    color: #212529;
-    color: #394045;
-}
+ body {
+     color: #212529;
+     color: #394045;
+ }
 
-p {
-    line-height: 1.6;
-}
+ p {
+     line-height: 1.6;
+ }
 
-ul {
-    list-style: none;
-}
+ ul {
+     list-style: none;
+ }
 
-button {
-    padding: 10px 20px;
-    color: black;
-    background-color: #f6e05e;
-    width: fit-content;
-    font-size: 18px;
-    border: none;
-    border-radius: 20px;
-    text-transform: capitalize;
-    transition: all 0.3s ease;
-}
+ button {
+     padding: 10px 20px;
+     color: black;
+     background-color: #f6e05e;
+     width: fit-content;
+     font-size: 18px;
+     border: none;
+     border-radius: 20px;
+     text-transform: capitalize;
+     transition: all 0.3s ease;
+ }
 
-.pf-logo {
-    font-size: 20px;
-}
+ .pf-logo {
+     font-size: 20px;
+ }
 
-.container {
-    max-width: 1400px;
-    margin: auto;
-    /* padding: 0 10px; */
-}
+ .container {
+     max-width: 1400px;
+     margin: auto;
+     /* padding: 0 10px; */
+ }
 
-.hpara {
-    text-align: center;
-    font-size: 2em;
-    text-transform: capitalize;
-}
+ .hpara {
+     text-align: center;
+     font-size: 2em;
+     text-transform: capitalize;
+ }
 
-.cpara {
-    max-width: 600px;
-    text-align: center;
-    margin: auto;
-}
+ .cpara {
+     max-width: 600px;
+     text-align: center;
+     margin: auto;
+ }
 
-.usize {
-    font-size: 0.9rem;
-}
+ .usize {
+     font-size: 0.9rem;
+ }
 
-.psize {
-    font-size: 1.2rem;
-}
+ .psize {
+     font-size: 1.2rem;
+ }
 
-.msize {
-    font-size: 1.5rem;
-}
+ .msize {
+     font-size: 1.5rem;
+ }
 
-.hsize {
-    font-size: 2rem;
-}
+ .hsize {
+     font-size: 2rem;
+ }
 
-@media screen and (max-width: 1024px) {
+ @media screen and (max-width: 1024px) {
 
-    .pf-header {
-        margin: 0 30px;
-    }
+     .pf-header {
+         margin: 0 30px;
+     }
 
-    .pf-about {
-        margin: 0 36px !important;
-    }
+     .pf-about {
+         margin: 0 36px !important;
+     }
 
-    .pf-services,
-    .pf-skills,
-    .exp-container,
-    .pf-client-container,
-    .pf-contact {
-        margin: 0 48px !important;
-    }
+     .pf-services,
+     .pf-skills,
+     .exp-container,
+     .pf-client-container,
+     .pf-contact {
+         margin: 0 48px !important;
+     }
 
-    .hero-section {
-        padding: 0 25px;
-        margin: 0 25px;
-    }
-}
+     .hero-section {
+         padding: 0 25px;
+         margin: 0 25px;
+     }
+ }
 
-@media screen and (max-width: 765px) {
+ @media screen and (max-width: 765px) {
 
-    .hero-section {
-        flex-direction: column;
-    }
+     .hero-section {
+         flex-direction: column;
+         padding: 0;
+     }
 
-    .pf-services,
-    .pf-skills,
-    .exp-container,
-    .pf-client-container {
-        margin: 0 33px !important;
-    }
+     .pf-services,
+     .pf-skills,
+     .exp-container,
+     .pf-client-container {
+         margin: 0 33px !important;
+     }
 
-    .pf-contact {
-        margin: 0 22px !important;
-    }
+     .pf-contact {
+         margin: 0 22px !important;
+     }
 
-    .pf-about,
-    .ctn-icons,
-    .content {
-        flex-direction: column;
-    }
+     .pf-about,
+     .ctn-icons,
+     .content {
+         flex-direction: column;
+     }
 
-    .about-right {
-        margin-top: 40px;
-    }
+     .about-right {
+         margin-top: 40px;
+     }
 
-    .about-right img {
-        max-width: 400px;
-    }
+     .about-right img {
+         max-width: 400px;
+     }
 
-    .skills-ctn {
-        grid-template-columns: 1fr !important;
-    }
+     .skills-ctn {
+         grid-template-columns: 1fr !important;
+     }
 
-    .exp-card,
-    .client-card {
-        width: 100% !important;
-    }
+     .exp-card,
+     .client-card {
+         width: 100% !important;
+     }
 
-}
 
-@media screen and (max-width: 575px) {
+     .client-card .bottom {
+         padding-right: 0 !important;
+     }
 
-    .message .bottom div,
-    .user-detail {
-        flex-direction: column;
-        align-items: flex-start !important;
-        gap: 10px;
-    }
-}
+     .drop-down-list {
+         display: block !important;
+     }
+
+     .toggle-btn {
+         display: block !important;
+     }
+
+     .hide {
+         display: none !important;
+     }
+
+ }
+
+ @media screen and (max-width: 575px) {
+
+     .message .bottom div,
+     .user-detail {
+         flex-direction: column;
+         align-items: flex-start !important;
+         gap: 10px;
+     }
+ }

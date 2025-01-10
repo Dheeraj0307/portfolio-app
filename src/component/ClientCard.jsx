@@ -2,9 +2,9 @@ import React from 'react'
 import { FaQuoteLeft } from "react-icons/fa";
 import './css/client.css'
 
-const ClientCard = ({ name, para, img }) => {
+const ClientCard = ({ name, para, img, data_aos, delay }) => {
     return (
-        <div className='client-card'>
+        <div className='client-card' data-aos={data_aos} data-aos-delay={delay}>
             <div className="top">
                 <span> <FaQuoteLeft size='32px' /></span>
                 <p>Walter displays exemplary professionalism and is able to take on challenges. He learns quickly and is an asset to any team.</p>

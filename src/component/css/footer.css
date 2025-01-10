@@ -18,3 +18,7 @@
     align-items: center;
     justify-content: center;
 }
+
+.footer-top p {
+    text-align: center;
+}

@@ -9,8 +9,19 @@ import Contact from './pages/Contact';
 import Experience from './pages/Experience';
 import Services from './pages/Services';
 import Skills from './pages/Skills';
+import 'aos/dist/aos.css';
+import Aos from 'aos';
+import { useEffect } from 'react';
 
 function App() {
+
+  useEffect(() => {
+    Aos.init({
+      duration: 600,
+      easing: 'ease-in-out',
+    });
+
+  }, []);
   return (
     <>
       <Navbar />

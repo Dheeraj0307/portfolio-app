@@ -9,7 +9,7 @@ const Contact = () => {
                     <div className="hpara">Contact Me</div>
 
                     <div className="content">
-                        <form className="form">
+                        <form className="form" data-aos="zoom-in" data-aos-delay="100">
                             <div>
                                 <label htmlFor="name"><b>Name</b></label>
                                 <input type="text" id='name' />
@@ -30,7 +30,7 @@ const Contact = () => {
                             </div>
                         </form>
 
-                        <div className="message">
+                        <div className="message" data-aos="fade-left" data-aos-delay="300">
                             <div className="top">
                                 <h4 className='msize'>Let's talk how I can help you!</h4>
 
