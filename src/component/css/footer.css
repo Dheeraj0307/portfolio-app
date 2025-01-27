@@ -1,6 +1,8 @@
 .footer {
     background: #f4f6f8;
     padding: 5% 0;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .footer-top {

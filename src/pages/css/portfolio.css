@@ -1,0 +1,10 @@
+.portfolio-container {
+    width: 100%;
+    max-width: 100%;
+}
+
+.pf-container {
+    margin: auto;
+    max-width: 1300px;
+    padding: 0 80px;
+}

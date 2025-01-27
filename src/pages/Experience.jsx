@@ -4,7 +4,7 @@ import Card from '../component/Card'
 
 const Experience = () => {
     return (
-        <div className="exp-container">
+        <div className="exp-container" id='experience'>
             <div>
                 <h1 className='hpara'>Experience</h1>
             </div>

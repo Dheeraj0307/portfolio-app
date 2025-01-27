@@ -1,0 +1,36 @@
+.pf-each-img {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.pf-each-img .image {
+    width: 100%;
+
+}
+
+.pf-each-img .heading {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.pf-each-img .para {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.hover-para {
+    background-color: rgba(255, 255, 255, 0.471);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px 0;
+    transform: translateY(100%);
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.pf-each-img:hover .hover-para {
+    transform: translateY(0%);
+}

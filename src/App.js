@@ -12,6 +12,7 @@ import Skills from './pages/Skills';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
 import { useEffect } from 'react';
+import Portfolio from './pages/Portfolio';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
       <About />
       <Services />
       <Skills />
+      <Portfolio />
       <Experience />
       <Client />
       <Contact />

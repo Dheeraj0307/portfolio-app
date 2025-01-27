@@ -10,14 +10,17 @@
 
  .pf-header {
      display: flex;
-     padding: 30px 0;
+     padding: 30px;
      align-items: center;
      justify-content: space-between;
      flex-wrap: wrap;
      transition: all .5s ease;
  }
 
- .bg-light-gray {}
+ .anchor_link {
+     text-decoration: none;
+     color: inherit;
+ }
 
  .pf-header-ul {
      display: flex;
@@ -38,7 +41,7 @@
  }
 
  .drop-down-list.open {
-     height: 300px;
+     height: auto;
  }
 
  .drop-down-list ul {

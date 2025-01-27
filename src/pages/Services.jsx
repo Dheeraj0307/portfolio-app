@@ -3,7 +3,7 @@ import './css/services.css'
 
 const Services = () => {
     return (
-        <div className='container'>
+        <div className='container' id='services'>
             <div className="pf-services">
                 <h1 className='hsize'>My Services</h1>
                 <p className='cpara'>I offer services fit for any website or app. I can quickly maximize timely deliverables for real-time schemas.</p>
