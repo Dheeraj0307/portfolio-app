@@ -131,6 +131,10 @@
          flex-direction: column;
      }
 
+     .content {
+         gap: 35px;
+     }
+
      .pf-container {
          padding: 0 35px !important;
      }
