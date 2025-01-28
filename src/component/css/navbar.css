@@ -11,10 +11,13 @@
  .pf-header {
      display: flex;
      padding: 30px;
-     align-items: center;
      justify-content: space-between;
      flex-wrap: wrap;
      transition: all .5s ease;
+ }
+
+ .bottom-nav {
+     width: 100%;
  }
 
  .anchor_link {
@@ -66,4 +69,5 @@
  .toggle-btn {
      cursor: pointer;
      display: none;
+     justify-self: right;
  }

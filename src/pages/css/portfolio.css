@@ -5,6 +5,14 @@
 
 .pf-container {
     margin: auto;
+    width: 100%;
     max-width: 1300px;
     padding: 0 80px;
+}
+
+.pf-folio {
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding: 70px 0;
 }

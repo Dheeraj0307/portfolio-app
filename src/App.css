@@ -76,7 +76,6 @@
          margin: 0 36px !important;
      }
 
-     .portfolio-container,
      .pf-services,
      .pf-skills,
      .exp-container,
@@ -98,6 +97,23 @@
          padding: 0;
      }
 
+     .bottom-nav {
+         flex: 1;
+         text-align: center;
+     }
+
+     .toggle-btn {
+         text-align: right;
+     }
+
+     .drop-down-list.open {
+         transform: translate(-51px, 0px);
+     }
+
+     .pf-folio {
+         max-width: 500px !important;
+     }
+
      .pf-services,
      .pf-skills,
      .exp-container,
@@ -113,6 +129,10 @@
      .ctn-icons,
      .content {
          flex-direction: column;
+     }
+
+     .pf-container {
+         padding: 0 35px !important;
      }
 
      .about-right {
