@@ -2,8 +2,7 @@ import React from 'react'
 import './css/contact.css'
 
 const Contact = () => {
-    return (
-        <div>
+    return ( 
             <div className="contact-container" id='contact'>
                 <div className='pf-contact'>
                     <div className="hpara">Contact Me</div>
@@ -59,8 +58,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div> 
     )
 }
 

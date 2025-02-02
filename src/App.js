@@ -24,18 +24,18 @@ function App() {
 
   }, []);
   return (
-    <>
+    <div className='app-container'>
       <Navbar />
       <HeroSection />
       <About />
       <Services />
       <Skills />
-      <Portfolio />
+      <Portfolio/>
       <Experience />
       <Client />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
 

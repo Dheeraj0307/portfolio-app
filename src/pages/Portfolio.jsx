@@ -2,6 +2,7 @@ import React from 'react'
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
 import PortCard from '../component/PortCard'
 import './css/portfolio.css'
+
 const Portfolio = () => {
     return (
         <div className='pf-container'>
