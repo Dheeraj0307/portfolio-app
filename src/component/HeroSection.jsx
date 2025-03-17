@@ -14,7 +14,7 @@ const HeroSection = () => {
             <div className='container'>
                 <main className='hero-section'>
                     <div className="hero-left-side">
-                        <img src="/images/hello3.svg" alt="hero" className='hero-img' />
+                        <img src={`${process.env.PUBLIC_URL}/images/hello3.svg`} alt="hero" className='hero-img' />
                     </div>
                     <div className="hero-right-side">
                         <div className="right-para">
@@ -36,7 +36,7 @@ const HeroSection = () => {
                 </main>
             </div>
             <div className='wave-ctn' >
-                <img src='/images/wave-bg.svg' alt="wave" className='bg-wave' />
+                <img src={`${process.env.PUBLIC_URL}/images/wave-bg.svg`} alt="wave" className="bg-wave" />
             </div>
         </div>
     )

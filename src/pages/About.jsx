@@ -36,7 +36,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="about-right" data-aos='fade-left' >
-                    <img src='/images/avatar.jpg' alt="user-img" />
+                    <img src={`${process.env.PUBLIC_URL}/images/avatar.jpg`} alt="user-img" />
                 </div>
             </div>
 

@@ -8,6 +8,7 @@
     padding: 5% 10px;
     display: flex;
     gap: 5%;
+    overflow: hidden;
 }
 
 .about-left {

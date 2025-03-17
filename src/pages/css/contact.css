@@ -10,10 +10,11 @@
     gap: 50px
 }
 
-.content {
+.content { 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .content .form {
@@ -39,11 +40,13 @@
     width: 100%;
     height: 40px;
     border-radius: 10px;
+    padding: 0 10px;
     border: 2px solid #e9ecef;
 }
 
 .content .form div textarea {
-    width: 100%;
+    width: 100%;   
+    padding: 10px;
     border-radius: 10px;
     border: 2px solid #e9ecef;
     resize: none;
@@ -67,6 +70,7 @@
 .message .bottom div {
     display: flex;
     width: 100%;
+    align-items: center;
 }
 
 .message .bottom div h3 {
