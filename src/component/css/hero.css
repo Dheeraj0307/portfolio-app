@@ -12,6 +12,7 @@
     flex: 1;
     padding: 15px;
     width: 100%;
+    overflow: hidden;
 }
 
 .hero-img {

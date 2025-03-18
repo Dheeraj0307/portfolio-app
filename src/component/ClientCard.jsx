@@ -14,7 +14,7 @@ const ClientCard = ({ name, para, img, data_aos, delay }) => {
                     <h3>{name}</h3>
                     <p className='usize'>{para}</p>
                 </div>
-                <img src={img} alt={name} width={100} height={100} />
+                <img src={img} loading='lazy' alt={name} width={100} height={100} />
             </div>
         </div>
     )

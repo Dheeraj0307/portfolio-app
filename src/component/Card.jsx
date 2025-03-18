@@ -10,7 +10,7 @@ const Card = ({ data_aos, title, para, img, delay }) => {
                     <h2>{title}</h2>
                     <p>{para}</p>
                 </div>
-                <img src={img} alt={title} width={50} />
+                <img src={img} alt={title} width={50} loading='lazy' />
             </div>
             <div className="cars-body psize">
                 <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
