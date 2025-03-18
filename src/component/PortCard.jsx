@@ -12,4 +12,4 @@ const PortCard = ({ image, heading, para }) => {
     )
 }
 
-export default PortCard
+export default PortCard 

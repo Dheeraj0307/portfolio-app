@@ -8,7 +8,6 @@
  body {
      color: #212529;
      color: #394045;
-     overflow-x: hidden;
  }
 
  p {
@@ -31,9 +30,14 @@
      transition: all 0.3s ease;
  }
 
+ .app-container{
+    max-width: 100%;
+    overflow-x: hidden;
+    margin-top: 80px;
+ }
+
  .pf-logo {
      font-size: 20px;
-     cursor: pointer;
  }
 
  .container {
@@ -44,7 +48,7 @@
 
  .hpara {
      text-align: center;
-     font-size: 2em;
+     font-size: 1.5em;
      text-transform: capitalize;
  }
 
@@ -71,17 +75,14 @@
  }
 
  @media screen and (max-width: 1024px) {
-
-     .pf-about {
-         margin: 0 36px !important;
-     }
-
+ 
+     .pf-about,
      .pf-services,
      .pf-skills,
      .exp-container,
      .pf-client-container,
      .pf-contact {
-         margin: 0 48px !important;
+         padding: 0 20px !important;
      }
 
      .hero-section {
@@ -98,31 +99,11 @@
      }
 
      .bottom-nav {
-         flex: 1;
-         text-align: center;
-     }
-
-     .toggle-btn {
-         text-align: right;
-     }
-
-     .drop-down-list.open {
-         transform: translate(-51px, 0px);
-     }
-
-     .pf-folio {
-         max-width: 500px !important;
-     }
-
-     .pf-services,
-     .pf-skills,
-     .exp-container,
-     .pf-client-container {
-         margin: 0 33px !important;
-     }
+       flex: 1;
+    }
 
      .pf-contact {
-         margin: 0 22px !important;
+         padding: 0 15px !important;
      }
 
      .pf-about,
@@ -131,14 +112,16 @@
          flex-direction: column;
      }
 
-     .content {
-         gap: 35px;
-     }
-
      .pf-container {
-         padding: 0 35px !important;
+        margin: auto;
+        width: 100%;
+        max-width: 500px !important;
+        padding: 0 20px !important;
+    }
+ 
+     .content .message{
+        padding: 50px 10px;
      }
-
      .about-right {
          margin-top: 40px;
      }
@@ -173,6 +156,9 @@
          display: none !important;
      }
 
+     .footer{
+        margin-top: 20px;
+     }
  }
 
  @media screen and (max-width: 575px) {
@@ -183,4 +169,8 @@
          align-items: flex-start !important;
          gap: 10px;
      }
+
+
+
+
  }

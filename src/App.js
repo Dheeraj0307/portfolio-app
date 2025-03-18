@@ -38,18 +38,26 @@ function App() {
 
 
   return (
+<<<<<<< HEAD
     <Suspense fallback={'loading...'}>
+=======
+    <div className='app-container'>
+>>>>>>> e6e6a5c2999a7ad9390e702d53b0ec968af2d007
       <Navbar />
       <HeroSection />
       <About />
       <Services />
       <Skills />
-      <Portfolio />
+      <Portfolio/>
       <Experience />
       <Client />
       <Contact />
       <Footer />
+<<<<<<< HEAD
     </Suspense>
+=======
+    </div>
+>>>>>>> e6e6a5c2999a7ad9390e702d53b0ec968af2d007
   );
 }
 

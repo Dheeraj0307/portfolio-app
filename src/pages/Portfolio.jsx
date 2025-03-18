@@ -2,6 +2,7 @@ import React from 'react'
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
 import PortCard from '../component/PortCard'
 import './css/portfolio.css'
+
 const Portfolio = () => {
 
     const img = `${process.env.PUBLIC_URL}/images/portfolio`

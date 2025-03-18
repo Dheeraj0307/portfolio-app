@@ -1,8 +1,7 @@
 .pf-services {
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    margin: 0 10%;
+    gap: 40px; 
 }
 
 .pf-services h1 {
