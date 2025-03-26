@@ -14,7 +14,7 @@ const HeroSection = () => {
             <div className='container'>
                 <main className='hero-section'>
                     <div className="hero-left-side">
-                        <img src={`${process.env.PUBLIC_URL}/images/hello3.svg`} loading='lazy' alt="hero" className='hero-img' />
+                        <img src={`${process.env.PUBLIC_URL}/images/hello3.webp`} alt="hero" className='hero-img' />
                     </div>
                     <div className="hero-right-side">
                         <div className="right-para">

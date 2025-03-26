@@ -11,10 +11,10 @@ const Client = () => {
                 </div>
 
                 <div className='client-cards'>
-                    <ClientCard data_aos={'fade-right'} delay={100} name='Aiyana' para='CEO / Web Design Company' img={img + '/1.jpg'} />
-                    <ClientCard data_aos={'fade-left'} delay={300} name='Alexander' para='CEO / Web Design Company' img={img + '/2.jpg'} />
-                    <ClientCard data_aos={'fade-right'} delay={200} name='Ariya' para='Web Developer' img={img + '/3.jpg'} />
-                    <ClientCard data_aos={'fade-left'} delay={400} name='Braiden' para='Web Designer' img={img + '/4.jpg'} />
+                    <ClientCard data_aos={'fade-right'} delay={100} name='Aiyana' para='CEO / Web Design Company' img={img + '/1.webp'} />
+                    <ClientCard data_aos={'fade-left'} delay={300} name='Alexander' para='CEO / Web Design Company' img={img + '/2.webp'} />
+                    <ClientCard data_aos={'fade-right'} delay={200} name='Ariya' para='Web Developer' img={img + '/3.webp'} />
+                    <ClientCard data_aos={'fade-left'} delay={400} name='Braiden' para='Web Designer' img={img + '/4.webp'} />
                 </div>
             </div>
         </div>

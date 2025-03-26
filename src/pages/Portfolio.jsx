@@ -24,14 +24,14 @@ const Portfolio = () => {
                         }}
                     >
                         <Masonry >
-                            <PortCard image={img + '/1.png'} heading={'web design'} para={'dribble.com'} />
-                            <PortCard image={img + '/2.png'} heading={'web development'} para={'gitHub.com'} />
-                            <PortCard image={img + '/3.png'} heading={'audio mixing'} para={'soundcloud.com'} />
-                            <PortCard image={img + '/4.png'} heading={'video editing'} para={'adibe after effects'} />
-                            <PortCard image={img + '/5.png'} heading={'photography'} para={'adobe photoshop'} />
-                            <PortCard image={img + '/6.png'} heading={'app development'} para={'android'} />
-                            <PortCard image={img + '/7.png'} heading={'app design'} para={'flutter'} />
-                            <PortCard image={img + '/8.png'} heading={'app development'} para={'flutter'} />
+                            <PortCard image={img + '/1.webp'} heading={'web design'} para={'dribble.com'} />
+                            <PortCard image={img + '/2.webp'} heading={'web development'} para={'gitHub.com'} />
+                            <PortCard image={img + '/3.webp'} heading={'audio mixing'} para={'soundcloud.com'} />
+                            <PortCard image={img + '/4.webp'} heading={'video editing'} para={'adibe after effects'} />
+                            <PortCard image={img + '/5.webp'} heading={'photography'} para={'adobe photoshop'} />
+                            <PortCard image={img + '/6.webp'} heading={'app development'} para={'android'} />
+                            <PortCard image={img + '/7.webp'} heading={'app design'} para={'flutter'} />
+                            <PortCard image={img + '/8.webp'} heading={'app development'} para={'flutter'} />
                         </Masonry>
                     </ResponsiveMasonry>
                 </div>
