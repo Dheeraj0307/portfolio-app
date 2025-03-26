@@ -1,13 +1,16 @@
-.exp-container {
-    max-width: 1024px;
-    padding: 20px 0;
+.experience-container {
+    max-width: 1024px; 
     margin: auto;
 }
 
 .pf-exp {
-    display: flex;
+    display: flex; 
     flex-wrap: wrap;
-    gap: 4%;
-    padding: 5% 0;
+    gap: 4%; 
+    padding-top: 5%;
     overflow: hidden;
 } 
+
+.pf-exp-container{
+    margin: 5% 0;
+}

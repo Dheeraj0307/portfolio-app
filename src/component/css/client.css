@@ -1,13 +1,17 @@
 .pf-client-container {
+    margin: 5% 0;
+}
+
+.client-container{
     max-width: 1024px;
     margin: auto;
 }
 
-.client-cards {
+.client-cards { 
     display: flex;
     flex-wrap: wrap;
     gap: 4%;
-    padding: 5% 0;
+    padding-top: 5% ;
     overflow: hidden;
 }
 

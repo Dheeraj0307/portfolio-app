@@ -1,16 +1,17 @@
-.portfolio-container {
+.pf-container {
     width: 100%; 
+    margin: 5% auto; 
+    padding: 0 80px;
 }
 
-.pf-container {
+.portfolio-container {
     margin: auto;
     width: 100%;
     max-width: 1300px;
-    padding: 0 80px;
-}
+} 
 
 .pf-folio {
     width: 100%; 
     margin: auto;
-    padding: 70px 0;
+    padding-top: 20px;
 }

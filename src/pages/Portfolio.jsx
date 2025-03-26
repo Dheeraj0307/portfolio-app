@@ -7,8 +7,8 @@ const Portfolio = () => {
 
     const img = `${process.env.PUBLIC_URL}/images/portfolio`
     return (
-        <div className='pf-container'>
-            <div className='portfolio-container' id='portfolio'>
+        <div className='portfolio-container' id='portfolio'>
+            <div className='pf-container'>
                 <div>
                     <h1 className='hpara'>Portfolio</h1>
                 </div>

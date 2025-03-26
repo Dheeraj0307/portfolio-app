@@ -5,10 +5,9 @@
 
 .pf-contact {
     display: flex;
-    flex-direction: column;
-    padding: 5% 0 10%;
-    margin: 50px 0;
-    gap: 50px
+    flex-direction: column; 
+    margin: 5% 0;
+    gap: 30px
 }
 
 .content { 
